@@ -13,7 +13,7 @@ with coz1:
     st.write(' ')
 
 with coz2:
-    st.image("logo2.png")
+    st.image("https://github.com/ernsahin/Optimismdash/blob/main/op/logo2.png?raw=true")
 
 with coz3:
     st.write(' ')
