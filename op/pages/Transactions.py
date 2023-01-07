@@ -13,7 +13,7 @@ with coz1:
     st.write(' ')
 
 with coz2:
-    st.image("logo2.png")
+    st.image("https://github.com/ernsahin/Optimismdash/blob/main/op/logo2.png?raw=true")
 
 with coz3:
     st.write(' ')
@@ -30,7 +30,7 @@ st.markdown("<h2 style='text-align: center; color: Red;'> Transaction Performanc
 # Sidebar setup
 
 #Sidebar navigation
-st.sidebar.image('pages/logo.png')
+st.sidebar.image('https://github.com/ernsahin/Optimismdash/blob/main/op/pages/logo.png?raw=true')
 st.sidebar.title('Data Frame')
 options = st.sidebar.radio('Select what you want to display:', [ 'Daily Data', 'Weekly Data'])
  
