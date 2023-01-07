@@ -40,8 +40,8 @@ api3=pd.read_json("https://node-api.flipsidecrypto.com/api/v2/queries/a24671ce-7
 
 def stats():
     st.header("Welcome To The Optimism Megadashboard")
-    st.markdown("#### In this megadashboard we will be looking at the Optimism, metrics we will be looking at is Transactions, Blocks, Contracts and Staking. This dashboard is made with using Flipside API, bounty question comes from MetricsDAO")
-    st.markdown('##### Charts are updated at every 12 hours.')
+    st.markdown("### In this megadashboard we will be looking at the Optimism, metrics we will be looking at is Transactions, Blocks, Contracts and Staking. This dashboard is made with using Flipside API, bounty question comes from MetricsDAO")
+    st.markdown('### Charts are updated at every 12 hours.')
     st.write("###  [Flipside Crypto](https://flipsidecrypto.xyz)")  
     st.write("###  [Metrics DAO](https://metricsdao.xyz)")  
     st.write("###  [Github](https://github.com/ernsahin/Optimismdash)")  
