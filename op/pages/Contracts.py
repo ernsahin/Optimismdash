@@ -24,7 +24,7 @@ modelTraining= st.container()
  
 st.markdown("<h1 style='text-align: center; color: White;'> Optimism Megadashboard </h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: Red;'> Transaction Performance Of Optimism </h2>", unsafe_allow_html=True)
-st.sidebar.image('pages/logo.png')
+st.sidebar.image('https://github.com/ernsahin/Optimismdash/blob/main/op/pages/logo.png?raw=true')
 st.sidebar.title('Data Frame')
 options = st.sidebar.radio('Select what you want to display:', ['Daily Data', 'Weekly Data'])
  
